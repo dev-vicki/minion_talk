@@ -9,26 +9,30 @@
   <link rel="icon" type="image/png" href="/assets/mini-nobg.png">
   <title>Minion Talk</title>
 </head>
+
 <body>
   <nav>
-    <div style="font-size: 2rem; padding: .75rem;">Minion Talk</div> <img src="/assets/minion.png" alt="Minion Pic" height="50px">
+    <div id="heading">Minion Talk</div>
+    <img src="/assets/minion.png" alt="Minion Pic">
   </nav>
-  <main>
-  <textarea id="txt-input" placeholder="Put your message here which you want to convert to Minion langauage"></textarea>
-  <button id="btn-translate">Translate To Minion</button>
-  <div>Translation will come here 👇</div>
 
-  <div id="txt-output" style="padding: 1rem; font-size: large;"></div>
+  <main>
+    <textarea id="txt-input"
+      placeholder="Put your message here which you want to convert to Minion langauage"></textarea>
+    <button id="btn-translate">Translate To Minion</button>
+    <div>Translation will come here 👇</div>
+    <div id="txt-output"></div>
   </main>
-      <footer>
-        <div style="font-size: x-large;">Connect With Me</div>
-        <div>
-          <img src="./assets/github.png" alt="" width="30px"><a href="" target="_blank"></a></img>
-          <img src="./assets/linkedin.png" alt="" width="30px"><a href="" target="_blank"></a></img>
-         <img src="./assets/twitter.png" alt="" width="30px"><a href="" target="_blank"></a></img>
-        <img src="./assets/instagram.png" alt="" width="30px"><a href="" target="_blank"></a></img>
-        </div>
-    </footer>
+
+  <footer>
+    <div class="connect">Connect With Me</div>
+    <div class="social-media">
+      <a href="https://github.com/dev-vicki" target="_blank"><img src="./assets/github.png"  width="30px"></img></a>
+      <a href="https://www.linkedin.com/in/vignesh77/" target="_blank"><img src="./assets/linkedin.png"  width="30px"></img></a>
+      <a href="https://twitter.com/dev_vicki" target="_blank"><img src="./assets/twitter.png"  width="30px"></img></a>
+      <a href="https://www.instagram.com/dev_vicki/" target="_blank"><img src="./assets/instagram.png"  width="30px"></img></a>
+    </div>
+  </footer>
 </body>
 <script src="app.js" type="text/javascript"></script>
 </html>
